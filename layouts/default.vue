@@ -36,7 +36,7 @@ body {
 	color: rgb(226, 146, 146);
 	font-weight: 400;
 	line-height: 1.6;
-	min-height: 95vh;
+	min-height: 90vh;
 	min-width: 100vw;
 }
 *,
