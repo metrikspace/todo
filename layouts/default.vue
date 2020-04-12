@@ -11,6 +11,10 @@ html {
 	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
 		Roboto, 'Helvetica Neue', Arial, sans-serif;
 	word-spacing: 1px;
+	@media screen and (max-width: 600px) {
+		overflow: hidden;
+		overflow-y: hidden;
+	}
 }
 body {
 	background-image: linear-gradient(
@@ -40,6 +44,7 @@ body {
 	min-width: 100vw;
 	@media screen and (max-width: 600px) {
 		min-height: 93vh;
+		overflow-y: hidden;
 	}
 }
 *,
